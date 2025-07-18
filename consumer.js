@@ -4,7 +4,7 @@ const amqp = require('amqplib');
 // IMPORTANT: Replace with your CloudAMQP AMQP URL
 // Example: amqps://user:password@host:port/vhost
 // It's highly recommended to store this in an environment variable for production
-const AMQP_URL = "amqps://svucreax:wjdCWtvdibc8noirs3A14DCKoT8IcFkl@cow.rmq2.cloudamqp.com/svucreax"; // <<< REPLACE THIS!
+const AMQP_URL = "YOUR_AMQP_URL"; // <<< REPLACE THIS!
 
 async function startConsumer() {
     let connection;
